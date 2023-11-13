@@ -13,3 +13,8 @@ console.log(evenPlayersAge);
 
 const evenPlayersName = playersName.filter( p => p.length > 4);
 console.log(evenPlayersName);
+
+
+// find any name or something using filter method
+const evenPlayersNameAkash = playersName.filter( p => p === "ahmed");
+console.log(evenPlayersNameAkash);
